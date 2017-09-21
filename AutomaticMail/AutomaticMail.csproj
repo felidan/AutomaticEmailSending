@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\EnviaEmail.cs" />
+    <Compile Include="Model\DadosCredenciais.cs" />
+    <Compile Include="Model\Destinatarios.cs" />
+    <Compile Include="Model\EmailData.cs" />
+    <Compile Include="Model\DadosRemetente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\EnviaEmailService.cs" />
@@ -51,9 +55,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
