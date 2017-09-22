@@ -1,6 +1,6 @@
 D:\Visual Studio\AutoMail\AutomaticMail\bin\Debug\AutomaticMail.exe.config
 D:\Visual Studio\AutoMail\AutomaticMail\bin\Debug\AutomaticMail.exe
 D:\Visual Studio\AutoMail\AutomaticMail\bin\Debug\AutomaticMail.pdb
-D:\Visual Studio\AutoMail\AutomaticMail\obj\Debug\AutomaticMail.csprojResolveAssemblyReference.cache
 D:\Visual Studio\AutoMail\AutomaticMail\obj\Debug\AutomaticMail.exe
 D:\Visual Studio\AutoMail\AutomaticMail\obj\Debug\AutomaticMail.pdb
+D:\Visual Studio\AutoMail\AutomaticMail\obj\Debug\AutomaticMail.csprojResolveAssemblyReference.cache

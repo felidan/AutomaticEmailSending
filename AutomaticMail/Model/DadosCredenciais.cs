@@ -10,10 +10,9 @@ namespace AutomaticMail.Model
     {
         public DadosCredenciais()
         {
-            this.EmailEnvio = "";
-            this.PassWord = "";
+
         }
         public string EmailEnvio { get; set; }
-        public string PassWord { get; set; }
+        public string Password { get; set; }
     }
 }

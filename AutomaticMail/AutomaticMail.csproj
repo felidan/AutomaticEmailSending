@@ -44,9 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\EnviaEmail.cs" />
+    <Compile Include="Model\AnexoModel.cs" />
     <Compile Include="Model\DadosCredenciais.cs" />
     <Compile Include="Model\Destinatarios.cs" />
-    <Compile Include="Model\EmailData.cs" />
+    <Compile Include="Model\EmailModel.cs" />
     <Compile Include="Model\DadosRemetente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

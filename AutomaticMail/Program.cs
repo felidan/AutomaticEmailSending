@@ -13,20 +13,22 @@ namespace AutomaticMail
     {
         static void Main(string[] args)
         {
+            //EnviaEmailService Send = new EnviaEmailService();
             EnviaEmail email = new EnviaEmail();
-
+            /*
             EnviaEmailService teste = new EnviaEmailService();
-            EmailData data = new EmailData();
+            EmailModel data = new EmailModel();
 
-            teste.LoadData(data);
+            // teste.LoadData(data);
+            teste.LoadDataDest(data);
 
             foreach(Destinatarios item in data.Destinatarios) {
                 Console.WriteLine(item.Email + "---" + item.IdEmail);
             }
 
             Console.WriteLine(data.Destinatarios.Count);
+            */
 
-            /*
             Console.WriteLine("Preparando o Envio...");
             
             Console.Write("Resultado: ");
@@ -35,8 +37,8 @@ namespace AutomaticMail
 
             Console.WriteLine("Processo finalizado.");
 
-            Console.ReadKey();
-            */
+            //Console.ReadKey();
+            
         }
     }
 }

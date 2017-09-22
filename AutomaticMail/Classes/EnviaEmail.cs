@@ -10,10 +10,16 @@ namespace AutomaticMail.Classes
     public class EnviaEmail
     {
         private EnviaEmailService service = new EnviaEmailService();
+        private EmailModel email;
+
+        public EnviaEmail()
+        {
+            this.email = new EmailModel();
+        }
 
         public void MainBox()
         {
-            service.SendEmail();
+            service.Email(email);
         }
     }
 }
